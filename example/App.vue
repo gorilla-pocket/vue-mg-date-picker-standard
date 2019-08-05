@@ -1,6 +1,6 @@
 <template>
   <section class="container">
-    <date-picker-normal v-model="date"/>
+    <date-picker-standard v-model="date"/>
   </section>
 </template>
 
@@ -8,7 +8,7 @@
 </style>
 
 <script>
-import DatePickerNormal from '../src/vue-mg-date-picker-normal'
+import DatePickerStandard from '../src/vue-mg-date-picker-standard'
 export default {
   data() {
     return {
@@ -19,7 +19,7 @@ export default {
       ///
     },
   components: {
-    DatePickerNormal,
+    DatePickerStandard,
   },  
 }
 </script>
