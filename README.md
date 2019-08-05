@@ -1,9 +1,9 @@
-# vue-mg-date-picker-normal
+# vue-mg-date-picker-standard
 
 ## Installation
 
 ```
-npm i vue-mg-date-picker-normal
+npm i vue-mg-date-picker-standar
 ```
 
 ## Usage
@@ -11,8 +11,8 @@ npm i vue-mg-date-picker-normal
 app.js
 
 ```
-import DatePickerNormal from 'vue-mg-date-picker-normal'
-Vue.component('DatePickerNormal', DatePickerNormal)
+import DatePickerStandard from 'vue-mg-date-picker-standard'
+Vue.component('DatePickerStandard', DatePickerStandard)
 ```
 
 Example:
@@ -20,7 +20,7 @@ Example:
 ```
 <template>
     <section class="container">
-        <date-picker-normal v-model="date"/>
+        <date-picker-standard v-model="date"/>
     </section>
 </template>
 
