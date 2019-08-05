@@ -1,11 +1,11 @@
 // Import vue component
-import component from './vue-mg-date-picker-normal.vue';
+import component from './vue-mg-date-picker-standard.vue';
 
 // install function executed by Vue.use()
 function install(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.component('VueMgDatePickerNormal', component);
+  Vue.component('VueMgDatePickerStandard', component);
 }
 
 // Create module definition for Vue.use()

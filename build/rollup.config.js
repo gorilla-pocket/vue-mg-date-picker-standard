@@ -46,7 +46,7 @@ if (!argv.format || argv.format === 'es') {
   const esConfig = {
     ...baseConfig,
     output: {
-      file: 'dist/vue-mg-date-picker-normal.esm.js',
+      file: 'dist/vue-mg-date-picker-standard.esm.js',
       format: 'esm',
       exports: 'named',
     },
@@ -70,9 +70,9 @@ if (!argv.format || argv.format === 'cjs') {
     external,
     output: {
       compact: true,
-      file: 'dist/vue-mg-date-picker-normal.ssr.js',
+      file: 'dist/vue-mg-date-picker-standard.ssr.js',
       format: 'cjs',
-      name: 'VueMgDatePickerNormal',
+      name: 'VueMgDatePickerStandard',
       exports: 'named',
       globals,
     },
@@ -97,9 +97,9 @@ if (!argv.format || argv.format === 'iife') {
     external,
     output: {
       compact: true,
-      file: 'dist/vue-mg-date-picker-normal.min.js',
+      file: 'dist/vue-mg-date-picker-standard.min.js',
       format: 'iife',
-      name: 'VueMgDatePickerNormal',
+      name: 'VueMgDatePickerStandard',
       exports: 'named',
       globals,
     },
