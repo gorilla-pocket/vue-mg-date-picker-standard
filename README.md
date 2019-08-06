@@ -1,9 +1,12 @@
 # vue-mg-date-picker-standard
 
+![npm](https://img.shields.io/npm/v/vue-mg-date-picker-standard)
+![npm](https://img.shields.io/npm/dm/vue-mg-date-picker-standard)
+
 ## Installation
 
 ```
-npm i vue-mg-date-picker-standar
+npm i vue-mg-date-picker-standard
 ```
 
 ## Usage
