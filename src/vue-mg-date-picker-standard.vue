@@ -1,5 +1,4 @@
 <template>
-<div class="">
     <datepicker
         :input-class="{ 'is-invalid': isInvalid }"
         :language="ja" v-model="date"
@@ -10,12 +9,11 @@
         calendarButtonIcon="far fa-calendar-alt"
         :clearButton="clearButton"
         clearButtonIcon="fas fa-times"
-        style="width:12rem;"
+        style="width:11.5rem;"
         :typeable="typeable"
         :id="id"
     >
     </datepicker>
-</div>
 </template>
 
 <script>
