@@ -19,7 +19,8 @@
 <script>
 import moment from 'moment';
 import Datepicker from 'vuejs-datepicker';
-import {ja} from 'vuejs-datepicker/dist/locale'
+import ja from 'vuejs-datepicker/src/locale/translations/ja';
+// import {ja} from 'vuejs-datepicker/dist/locale'
 export default {
     props: {
         value: '',
